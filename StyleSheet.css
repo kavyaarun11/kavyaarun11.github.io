@@ -1,0 +1,461 @@
+﻿
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('none.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.normal {
+    font-weight: 500;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5em;
+    animation: titleanimation 5s;
+}
+.hero {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    line-height: 3em;
+    margin-left: 3em;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.ka-logo {
+    height: 8em;
+    transition: 1.5s ease-in-out;
+}
+img {
+    -webkit-user-drag: none;
+}
+.uwaterloo-link {
+    background: linear-gradient(45deg,#FFD54F 0%,#E4B429 33.33%, #787878 66.67%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5vw;
+}
+
+.syde-link {
+        background: linear-gradient(45deg,#8100B4 50%, #57058B 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 1.5vw;
+    }
+
+.rbc-link {
+    background: linear-gradient(45deg,#005DAA 50%, #FFD200 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5vw;
+}
+.kenna-link {
+    background: linear-gradient(45deg,#C30707 50%, #D30B0B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5vw;
+}
+
+.teamstudy-link {
+    background: linear-gradient(45deg,#3dd0fc 0%,#000485 33.33%, #f76628 66.67%,#f7af28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5vw;
+}
+
+.medium {
+    font-weight: 400;
+    font-size: 40px;
+}
+.option {
+    display: inline;
+    margin-left: 5vw;
+    font-weight: normal;
+    color: var(--gray-03);
+}
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: inherit;
+    margin: 0;
+}
+
+.selected {
+    font-weight: 500;
+    color: var(--black);
+}
+nav {
+    line-height: 8em;
+    margin-left: 21em;
+}
+h1 {
+    font-size: 3.8em;
+    font-weight: 430;
+    color: #1B1F23;
+}
+.slogan {
+    margin-left: 5em;
+}
+a:hover {
+    color: gray;
+}
+.about-me {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+p {
+    font-size: 1.5em;
+}
+.kavya-picture {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25em;
+    width: 25em;
+    border-radius: 50%;
+}
+.half {
+    float: left;
+    width: calc(50% - 5em);
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.resume {
+    margin-left: 20em;
+    margin-right: 5em;
+}
+.resume-header {
+    font-size: 2em;
+    color: #9928b8;
+    margin-bottom: -16px;
+}
+
+.resume-titles {
+    font-weight: 350;
+}
+li {
+    margin-bottom: 5px;
+}
+
+
+@keyframes titleanimation {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    margin-left: 5em;
+    margin-top: 5em;
+}
+[class*="colr-"] {
+    float: right;
+    padding: 15px;
+    margin-right: 5em;
+    margin-top: 5em;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.colr-6 {
+    width: 41.66%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.life-header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+   
+    color: #ffffff;
+    
+    height: 25em;
+    border-radius: 15%;
+}
+
+    .menu li:hover {
+        background-color: #C6F3FA;
+    }
+
+img.icon {
+    position: absolute;
+    border-radius: 15%;
+    margin: 3%;
+    height: 92%;
+    width: 94%;
+    /* left: 0; */
+    right: 0;
+    /* height: auto; */
+    top: 0;
+    bottom: 0;
+}
+li.icon-list {
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        margin-left: 11em;
+    }
+
+    #main {
+        margin-left: 216px;
+    }
+}
+@media screen and (min-width: 375px) {
+    nav {
+        margin-left: 8em;
+    }
+
+    #main {
+        margin-left: 216px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    nav {
+        margin-left: 8em;
+    }
+
+    [class*="col-"] {
+        float: left;
+        margin-left: -1em;
+        margin-top: 5em;
+    }
+    [class*="colr-"] {
+        float: right;
+        /* padding: 15px; */
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+    .menu li {
+        padding: 8px;
+        margin-bottom: 27px;
+        /* background-color: black; */
+        color: #ffffff;
+        /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+        height: 25em;
+        border-radius: 15%;
+        width: 31em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav {
+        margin-left: 20em;
+    }
+
+    [class*="col-"] {
+        float: left;
+        margin-left: 9em;
+        margin-top: 5em;
+    }
+
+    [class*="colr-"] {
+        float: right;
+        /* padding: 15px; */
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+
+    .menu li {
+        padding: 8px;
+        margin-bottom: 27px;
+        /* background-color: black; */
+        color: #ffffff;
+        /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+        height: 25em;
+        border-radius: 15%;
+        width: 31em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    nav {
+        margin-left: 40em;
+    }
+
+    [class*="col-"] {
+        float: left;
+        margin-left: 10em;
+        margin-top: 5em;
+    }
+
+    [class*="colr-"] {
+        float: right;
+        /* padding: 15px; */
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+
+    .menu li {
+        padding: 8px;
+        margin-bottom: 27px;
+        /* background-color: black; */
+        color: #ffffff;
+        /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+        height: 25em;
+        border-radius: 15%;
+        width: 31em;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github {
+    background: #046657;
+    color: white;
+}
+   
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em transparent;/* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin-left: 5em; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 2.5s steps(40, end), blink-caret .75s step-end 2s;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: black;
+    }
+}
+
+
+
